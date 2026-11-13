@@ -1,0 +1,26 @@
+﻿# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+# Frontend dependencies and build files
+node_modules/
+dist/
+# Raw and processed datasets
+data/
